@@ -1,13 +1,14 @@
 import React from "react";
+import "../../styles/navbar.css";
 
 
-const Navbar = () => {
+const Navbar = (props) => {
 return (
 
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div className="container py-0 mx-lg-auto">
         <a className="navbar-brand" href="#">
-          Start Bootstrap
+          {props.titulo}
         </a>
         <button
           className="navbar-toggler"
