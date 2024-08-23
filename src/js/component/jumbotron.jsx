@@ -10,7 +10,7 @@ const Jumbotron = () => {
           <p className="fs-4">
           es un centro de tatuajes versátil, formado por un equipo de tatuadores profesionales,  manejamos gran variedad de estilos e innovamos con los diseños para que cada pieza sea única y original. 
           </p>
-          <button className="btn btn-primary btn-lg" type="button">
+          <button className="btn btn-dark btn-lg" type="button">
             Pedir Cita
           </button>
         </div>

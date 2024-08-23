@@ -9,11 +9,11 @@ const Cards = (props) => {
         <img src={props.cardImage} className="card-img-top h-75" alt="cardImage" />
         <div className="card-body">
             <h5 className="card-tittle">{props.cardTitle}</h5>
-            <p className="card-text"> {props.cardText}</p>
+            
         </div>
 
         <div className="card-footer text-center">
-            <a className="btn btn-primary estilo" target="_blank">{props.bottonText}</a>
+            <a className="btn btn-dark estilo" target="_blank">{props.bottonText}</a>
         </div>
 
     </div>
